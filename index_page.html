@@ -18,9 +18,7 @@
 		margin: 0;
 	}
 
-.ink{
-	position: relative;
-}
+
 
 body{
 	font-family: 'Share Tech Mono',;
@@ -46,39 +44,30 @@ html {
 
  }
 .buttons{
-	margin: 0 auto;
-	padding-right: 40px;
-	padding-bottom: 20px;
-	max-width: 600px;
-
-	
-
+	margin: auto 0; 
 }
 
 .buttons li {
-	display: block;
-	border: 3px solid white; 
-	background-color: black;
 	position: relative;
-	padding: 20px 20px 20px 20px;
-
+	padding: 20px 75px 20px 75px;
+	display: inline-block;
+	border: 2px solid white; 
+	background-color: black;
+	margin-bottom: 20px;	
 
 }
-
-
 
 @media screen and (min-width:600px){ .brand
  } 
     .buttons {
         text-align:center;
-        margin: 0 auto;
+         margin: auto 0;
     }
     .buttons li {
-        display:block;
-        float:none;
-        
+        display:inline-block;
+        float:center;
+        margin-bottom: 20px;	
     }
-
 }
 
 
@@ -86,7 +75,7 @@ html {
 
 <body>
 	<header class="clearfix">
-		<div class="ink">
+
  	<img class="brand" src="images/logo.jpg">
 	<nav class="buttons">
 		<ul>
@@ -96,7 +85,6 @@ html {
 			<li>directions</li>
 		</ul>
 	</nav>	
-	</div>
 	</header>
  
 </body>	
