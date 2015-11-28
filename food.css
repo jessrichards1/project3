@@ -19,7 +19,14 @@ html, body {
 
 ul li.home {
 	margin: auto 0;
-	margin-top:50px;
+	margin-top:20px;
+	background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+ul li.menuback {
+	margin: auto 0;
+	margin-top:20px;
 	background-color: rgba(0, 0, 0, 0.5);
 
 
