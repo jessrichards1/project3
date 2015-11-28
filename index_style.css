@@ -11,15 +11,26 @@ html, body {
 		padding: 0;
 		margin: 0;
 	}
+	.clearfix{
+		overflow: auto;
+	}
 
 body {
+
 	font-family: 'Share Tech Mono',;
 	font-size: 20px;
 	color: white;
 	text-align: center;
 	margin: auto 0;
 }
+ p{
+ 	background-color: rgba(0, 0, 0, 0.7);
+ 	padding: 10px;
+ 
 
+
+ 
+ }
 
 
 html { 
@@ -47,6 +58,8 @@ img {
 
  }
 
+
+
 .menu{
 	margin: auto 0;
 }
@@ -71,24 +84,49 @@ a{
 	color: white;
 }
 
-@media screen and (min-width:320px) {.menu li { width:75%; 
+@media screen and (min-width:320px) {.menu li { width:75%;}
+p{
+		margin-left: 50px;
+		margin-right: 50px;
+}  
+  
 
 
 }
-@media screen and (min-width:600px) {.menu li { width:75%; 
+@media screen and (min-width:600px) {.menu li { width:75%;}
+p{
+		margin-left: 100px;
+ 	margin-right: 100px;
+}  
   
 }
-@media screen and (min-width:700px) {.menu li { width:40%; 
+@media screen and (min-width:700px) {.menu li { width:40%;}
+p{
+		margin-left: 200px;
+ 	margin-right: 200px;
+}  
   
 }
-@media screen and (min-width:800px) {.menu li { width:40%; 
+@media screen and (min-width:800px) {.menu li { width:40%;}
+p{
+		margin-left: 200px;
+ 	margin-right: 200px;
+}  
   
 }
-@media screen and (min-width:900px) {.menu li { width:20%; 
+@media screen and (min-width:900px) {.menu li { width:20%; }
+p{
+		margin-left: 300px;
+ 	margin-right: 300px;
+} 
   
 }
 
-@media screen and (min-width:1000px) {.menu li { width:20%; 
+@media screen and (min-width:1000px) {.menu li { width:20%;}
+p{
+		margin-left: 300px;
+ 	margin-right: 300px;
+} 
   
 }
 
