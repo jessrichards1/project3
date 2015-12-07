@@ -7,7 +7,7 @@ html, body {
 	*{
 		box-sizing: inherit;
 	}
-	html, body, h1, h2, h3, h4, h5, h6{
+	html, body, h1, h2, h3, h4, h5, h6, p, img{
 		padding: 0;
 		margin: 0;
 	}
@@ -15,21 +15,28 @@ html, body {
 		overflow: auto;
 	}
 
+
+
 body {
 
-	font-family: 'Share Tech',; 
+	font-family: "Courier New", Courier, monospace;
 	font-size: 20px;
 	color: white;
 	text-align: center;
 	margin: auto 0;
 }
+
+
+}
  p{
- 	background-color: rgba(0, 0, 0, 0.7);
+ 	background-color: rgb(0, 0, 0);
  	padding: 10px;
  
+ }
 
+ .home{
+ 	z-index: auto;
 
- 
  }
 
 
@@ -48,7 +55,7 @@ header{
 	position: relative;
 	margin: auto 0;
 }
-img {
+.mark {
 	position: relative;
 	margin: auto 0;
 	padding-top: 10px;
@@ -68,14 +75,14 @@ img {
 	margin: auto 0;
 	position: relative;
 	display: inline-block;
-	padding-bottom:20px;
-  	padding-top:20px;
+	padding-bottom:10px;
+  	padding-top:10px;
   	padding-right:10px;
   	padding-left:10px;
-	border: 2px solid white; 
 	background-color: black;
 	margin-bottom: 20px;
 	margin-right: 10px;
+	box-shadow: 2px 2px 2px #00ffff;
 
 }
 
@@ -83,50 +90,120 @@ a{
 	text-decoration: none;
 	color: white;
 }
+a:hover {
+	color: #b30000;
+}
 
-@media screen and (min-width:320px) {.menu li { width:75%;}
+@media screen and (min-width:320px) {.menu li { width:75%; font-size: 13px; margin-right: 40px;}
 p{
 		margin-left: 50px;
 		margin-right: 50px;
+		font-size: 13px;
+		background-color: black;
+		padding: 10px;
 }  
+.mark{
+	width: 200px;
+}
+
+.home{
+ width: 275px;
+ margin: auto 0;
+ padding-top: 20px;
+ margin-left: 20px;
+ margin-right: 20px;
+}
   
 
 
 }
-@media screen and (min-width:600px) {.menu li { width:75%;}
+@media screen and (min-width:600px) {.menu li { width:75%;font-size: 13px; margin-right: 30px;}
 p{
-		margin-left: 100px;
- 	margin-right: 100px;
+		margin-left: 75px;
+ 	margin-right: 75px;
+ 	font-size: 13px;
 }  
+.mark{
+	width: 250px;
+}
+.home{
+ width: 500px;
+ margin: auto 0;
+ padding-top: 10px;
+ margin-left: 50px;
+ margin-right: 50px;
+}
   
 }
-@media screen and (min-width:700px) {.menu li { width:40%;}
+@media screen and (min-width:700px) {.menu li { width:40%;font-size: 16px; margin-right: 20px;}
+p{
+		margin-left: 50px;
+ 	margin-right: 50px;
+ 	font-size: 16px;
+}  
+  .mark{
+	width: 250px;
+}
+.home{
+ width: 500px;
+ margin: auto 0;
+ padding-top: 20px;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+}
+@media screen and (min-width:800px) {.menu li { width:40%;font-size: 16px;margin-right: 20px;}
+p{
+		margin-left: 50px;
+ 	margin-right: 50px;
+ 	font-size: 16px;
+}  
+  .mark{
+	width: 250px;
+}
+.home{
+ width: 500px;
+ margin: auto 0;
+ padding-top: 20px;
+ margin-left: 100px;
+ margin-right: 100px;
+}
+  
+}
+@media screen and (min-width:900px) {.menu li { width:20%;font-size: 20px; margin-right: 10px;}
 p{
 		margin-left: 200px;
  	margin-right: 200px;
-}  
-  
-}
-@media screen and (min-width:800px) {.menu li { width:40%;}
-p{
-		margin-left: 200px;
- 	margin-right: 200px;
-}  
-  
-}
-@media screen and (min-width:900px) {.menu li { width:20%; }
-p{
-		margin-left: 300px;
- 	margin-right: 300px;
 } 
+  .mark{
+	width: 300px;
+}
+.home{
+ width: 600px;
+ margin: auto 0;
+ padding-top: 20px;
+ margin-left: 150px;
+ margin-right: 150px;
+}
   
 }
 
-@media screen and (min-width:1000px) {.menu li { width:20%;}
+@media screen and (min-width:1000px) {.menu li { width:20%;font-size: 20px;margin-right: 10px;}
 p{
-		margin-left: 300px;
- 	margin-right: 300px;
+		margin-left: 250px;
+ 	margin-right: 250px;
+ 	font-size: 18px;
 } 
+  .mark{
+	width: 300px;
+}
+.home{
+ width: 600px;
+ margin: auto 0;
+ padding-top: 20px;
+ margin-left: 150px;
+ margin-right: 150px;
+}
   
 }
 
